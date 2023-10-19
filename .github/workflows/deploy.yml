@@ -6,24 +6,25 @@ on:
       - main
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v2
 
-      - name: Install Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 14  # Vous pouvez ajuster la version Node.js selon vos besoins
+      - name: Install, build, and upload your site
+        uses: withastro/action@v0
 
-      - name: Install dependencies and build your site
-        run: |
-          npm install  # Installez les dépendances de votre projet
-          npm run build  # Exécutez la commande de build spécifique à Astro
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v2
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+          publish_branch: gh-pages
