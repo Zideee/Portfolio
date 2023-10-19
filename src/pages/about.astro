@@ -1,0 +1,107 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos" description="À propos de Johann Zidee">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propros de moi"
+				tagline="Découvrez mon parcours et mes compétences"
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Jeanine White at work with a colleague"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						<p>Je suis étudiant en deuxième année de Bachelor Universitaire de Technologie à l’IUT de Villetaneuse de l’Université Sorbonne Paris Nord, mes études m'ont doté de solides compétences techniques que j'ai pu mettre en pratique à travers divers projets académiques. </p>
+						<p>Ces expériences m'ont permis d'explorer la conception, le développement et la résolution de problèmes dans des contextes concrets. </p>
+						<p>En dehors de mes études, je maintiens un équilibre en me consacrant à mes passions, notamment le basketball et le football, qui ont renforcé des valeurs essentielles telles que l'esprit d'équipe, la persévérance et la gestion du stress. Par ailleurs, ma passion pour le cinéma, les jeux vidéo et les mangas représente pour moi une source inestimable d'inspiration créative et de moments d'évasion captivants.</p>
+					</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formation</h2>
+				<div class="content">
+					<p>BAC+2 BUT informatique</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Compétences</h2>
+				<div class="content">
+					<p>Microsoft Word, HTML/CSS, JAVA, SQL, Python, Linux, Windows, Créatif, Rigoureux, Persévérant, Assiduité, Travail en équipe, Aisance à l'oral, Patient</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
