@@ -2,13 +2,8 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Déclenchez le workflow à chaque fois que vous poussez vers la branche "main"
-  workflow_dispatch: # Permet d'exécuter ce workflow manuellement à partir de l'onglet "Actions" sur GitHub.
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
+    branches:
+      - main
 
 jobs:
   build:
@@ -16,16 +11,20 @@ jobs:
     steps:
       - name: Checkout your repository using git
         uses: actions/checkout@v2
+
       - name: Install, build, and upload your site
         uses: withastro/action@v0
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v2
+
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v1
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
