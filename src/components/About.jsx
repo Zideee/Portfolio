@@ -17,54 +17,26 @@ const About = () => {
                         <div className="image-wrapper">
                             <div className="image-decoration"></div>
                             <div className="profile-placeholder">
-                                <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx="100" cy="75" r="40" fill="var(--color-secondary)" opacity="0.2" />
-                                    <circle cx="100" cy="75" r="35" fill="var(--color-beige-dark)" />
-                                    <path d="M 60 150 Q 100 120 140 150 L 140 200 L 60 200 Z" fill="var(--color-beige-dark)" />
-                                </svg>
+                                <img src="assets/me.jpg" alt="Profile" />
                             </div>
                         </div>
                     </div>
 
                     <div className="about-text animate-slide-in-right">
-                        <h3 className="about-greeting">Bonjour ! Je suis Johann</h3>
                         <p className="about-description">
-                            Développeur web passionné, je combine créativité et expertise technique
-                            pour créer des expériences digitales exceptionnelles. Mon approche allie
-                            design élégant et code performant.
+                            Étudiant en dernière année de BUT Informatique , je ne me contente pas de compiler du code,
+                            je fédère les équipes autour de projets back-end performants.
+                            De la gestion d'une billetterie pour les JO 2024 à la création d'applis mobiles comme OtakuGo ,
+                            j'allie rigueur technique et esprit d'initiative.
+
+
+
                         </p>
                         <p className="about-description">
-                            Avec une solide expérience en développement full stack, je maîtrise
-                            l'ensemble du processus de création, de la conception à la mise en production.
-                            J'aime relever des défis et transformer des idées complexes en solutions
-                            simples et intuitives.
+                            Passionné de basket et de réalisation de films ,
+                            j'apporte un sens du collectif "All-Star" et une touche créative à chaque défi.
+                            Mon objectif : transformer des besoins complexes en expériences fluides, tout en gardant un calme (et un humour) olympique.
                         </p>
-
-                        <div className="about-highlights">
-                            <div className="highlight-item card">
-                                <div className="highlight-icon">🎯</div>
-                                <div className="highlight-content">
-                                    <h4>Mission</h4>
-                                    <p>Créer des expériences web qui marquent les esprits</p>
-                                </div>
-                            </div>
-
-                            <div className="highlight-item card">
-                                <div className="highlight-icon">💡</div>
-                                <div className="highlight-content">
-                                    <h4>Approche</h4>
-                                    <p>Allier esthétique moderne et performance optimale</p>
-                                </div>
-                            </div>
-
-                            <div className="highlight-item card">
-                                <div className="highlight-icon">🚀</div>
-                                <div className="highlight-content">
-                                    <h4>Objectif</h4>
-                                    <p>Dépasser les attentes à chaque projet</p>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>

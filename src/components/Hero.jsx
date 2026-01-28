@@ -37,22 +37,15 @@ const Hero = () => {
                 <div className="hero-content animate-fade-in-up">
                     <p className="hero-greeting">Bonjour, je suis</p>
                     <h1 className="hero-title">
-                        Johann<span className="text-gold">.</span>
+                        Johann Zidee<span className="text-gold">.</span>
                     </h1>
                     <h2 className="hero-subtitle">
                         <span className="typing-text">{text}</span>
                         <span className="cursor">|</span>
                     </h2>
-                    <p className="hero-description">
-                        Je crée des expériences web modernes, élégantes et performantes.
-                        Passionné par le design et le code propre, je transforme vos idées en réalité digitale.
-                    </p>
 
                     <div className="hero-cta">
-                        <button onClick={scrollToContact} className="btn btn-primary">
-                            Me contacter
-                        </button>
-                        <button onClick={scrollToProjects} className="btn btn-outline">
+                        <button onClick={scrollToProjects} className="btn btn-primary">
                             Voir mes projets
                         </button>
                     </div>

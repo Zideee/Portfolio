@@ -4,36 +4,51 @@ import './Skills.css'
 const Skills = () => {
     const skillCategories = [
         {
-            title: 'Frontend',
-            icon: '🎨',
+            title: 'Langages',
+            icon: '💻',
             skills: [
-                { name: 'React', level: 90 },
-                { name: 'JavaScript', level: 95 },
-                { name: 'HTML/CSS', level: 95 },
-                { name: 'TypeScript', level: 85 },
-                { name: 'Vue.js', level: 80 },
-            ]
-        },
-        {
-            title: 'Backend',
-            icon: '⚙️',
-            skills: [
-                { name: 'Node.js', level: 88 },
+                { name: 'JavaScript', level: 80 },
+                { name: 'Java', level: 85 },
                 { name: 'Python', level: 85 },
-                { name: 'Express', level: 90 },
-                { name: 'Flask', level: 82 },
-                { name: 'API REST', level: 92 },
+                { name: 'PHP', level: 90 },
+                { name: 'Dart', level: 85 },
+                { name: 'HTML/CSS', level: 90 },
+                { name: 'SQL', level: 85 },
             ]
         },
         {
-            title: 'Database & Tools',
+            title: 'Frameworks & Outils',
             icon: '🛠️',
             skills: [
-                { name: 'MongoDB', level: 85 },
-                { name: 'PostgreSQL', level: 80 },
                 { name: 'Git', level: 90 },
+                { name: 'Flutter', level: 80 },
+                { name: 'Android (Java)', level: 85 },
+                { name: 'WordPress', level: 80 },
                 { name: 'Docker', level: 75 },
-                { name: 'Firebase', level: 85 },
+                { name: 'Jenkins', level: 70 },
+                { name: 'JUnit', level: 80 },
+                { name: 'Linux', level: 85 },
+            ]
+        },
+        {
+            title: 'Bases de données',
+            icon: '🗄️',
+            skills: [
+                { name: 'MySQL', level: 85 },
+                { name: 'PostgreSQL', level: 90 },
+                { name: 'MongoDB', level: 80 },
+                { name: 'Redis', level: 75 },
+                { name: 'CockroachDB', level: 70 },
+            ]
+        },
+        {
+            title: 'Méthodes',
+            icon: '📋',
+            skills: [
+                { name: 'Analyse des besoins', level: 85 },
+                { name: 'Modélisation', level: 80 },
+                { name: 'Gestion de projet', level: 80 },
+                { name: 'Tests & Intégration', level: 85 },
             ]
         },
     ]
@@ -82,7 +97,7 @@ const Skills = () => {
                 <div className="technologies-showcase">
                     <h3 className="showcase-title">Technologies favorites</h3>
                     <div className="tech-icons">
-                        {['React', 'Node.js', 'JavaScript', 'Python', 'MongoDB', 'Git', 'Docker', 'Vue.js'].map((tech, index) => (
+                        {['Java', 'PHP', 'Android', 'MySQL', 'PostgreSQL', 'MongoDB', 'Git'].map((tech, index) => (
                             <div key={index} className="tech-badge" style={{ animationDelay: `${index * 0.1}s` }}>
                                 {tech}
                             </div>
