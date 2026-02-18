@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'OtakuGo',
+            title: 'OtakuGoooo',
             description: 'Application mobile de recommandation d\'animes avec système de swipe, algorithme évolutif, tier list, mode tournoi et dashboard statistiques.',
             image: 'projects/otakugo.png',
             tags: ['Flutter', 'Dart', 'Mobile'],
@@ -25,7 +25,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: 'Doctor Who Games',
+            title: 'Doctor Who Games dfzva',
             description: 'Jeu mobile interactif basé sur l\'univers Doctor Who avec choix narratifs, voyages temporels et mini-jeu Breakout.',
             image: 'projects/doctorwho.png',
             tags: ['Python', 'Mobile', 'Game'],
@@ -43,7 +43,7 @@ const Projects = () => {
         },
         {
             id: 5,
-            title: 'SAS Perform Vision',
+            title: 'SAS Perform Vision dvsdvav',
             description: 'Extranet d\'entreprise sécurisé facilitant la collaboration, la gestion de fichiers et la diffusion d\'actualités internes.',
             image: 'projects/sas-perform-vision.png',
             tags: ['Web', 'Extranet', 'PHP'],

@@ -20,7 +20,7 @@ const Skills = () => {
             title: 'Frameworks & Outils',
             icon: '🛠️',
             skills: [
-                { name: 'Git', level: 90 },
+                { name: 'Github', level: 90 },
                 { name: 'Flutter', level: 80 },
                 { name: 'Android (Java)', level: 85 },
                 { name: 'WordPress', level: 80 },
@@ -34,7 +34,7 @@ const Skills = () => {
             title: 'Bases de données',
             icon: '🗄️',
             skills: [
-                { name: 'MySQL', level: 85 },
+                { name: 'MySQLsss', level: 85 },
                 { name: 'PostgreSQL', level: 90 },
                 { name: 'MongoDB', level: 80 },
                 { name: 'Redis', level: 75 },
