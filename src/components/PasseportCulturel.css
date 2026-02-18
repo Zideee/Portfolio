@@ -1,0 +1,149 @@
+.passeport-culturel {
+    background: var(--bg-secondary);
+}
+
+.passeport-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.passeport-card {
+    padding: var(--spacing-xl);
+    transition: all var(--transition-base);
+}
+
+.passeport-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-gold-hover);
+}
+
+.passeport-card-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.passeport-card h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.passeport-card>p {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Veille Sources */
+.veille-sources {
+    padding: var(--spacing-md);
+    background: rgba(212, 175, 55, 0.05);
+    border-radius: var(--border-radius-sm);
+}
+
+.veille-sources h4 {
+    font-size: var(--font-size-sm);
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.veille-sources ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.veille-sources li {
+    font-size: var(--font-size-xs);
+    color: var(--text-muted);
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--border-color-light);
+}
+
+.veille-sources li:last-child {
+    border-bottom: none;
+}
+
+.veille-sources li::before {
+    content: '→ ';
+    color: var(--color-secondary);
+}
+
+/* Langue Badge */
+.langue-badge {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: rgba(212, 175, 55, 0.08);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.langue-flag {
+    font-size: 2rem;
+}
+
+.langue-badge strong {
+    display: block;
+    font-size: var(--font-size-sm);
+    color: var(--text-primary);
+}
+
+.langue-level {
+    font-size: var(--font-size-xs);
+    color: var(--color-secondary);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Interests List */
+.interests-list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.interest-item {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: flex-start;
+    padding: var(--spacing-sm);
+    border-radius: var(--border-radius-sm);
+    transition: background var(--transition-base);
+}
+
+.interest-item:hover {
+    background: rgba(212, 197, 185, 0.05);
+}
+
+.interest-emoji {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 35px;
+    text-align: center;
+}
+
+.interest-item strong {
+    display: block;
+    font-size: var(--font-size-sm);
+    color: var(--text-primary);
+    margin-bottom: 0.15rem;
+}
+
+.interest-item p {
+    font-size: var(--font-size-xs);
+    color: var(--text-muted);
+    line-height: var(--line-height-normal);
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .passeport-grid {
+        grid-template-columns: 1fr;
+    }
+}

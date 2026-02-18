@@ -1,0 +1,200 @@
+.experience {
+    background: var(--bg-secondary);
+}
+
+/* Stage */
+.stage-header {
+    display: flex;
+    gap: var(--spacing-lg);
+    align-items: flex-start;
+    margin-bottom: var(--spacing-xl);
+}
+
+.stage-icon {
+    font-size: 2.5rem;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    border-radius: var(--border-radius-sm);
+    flex-shrink: 0;
+    box-shadow: var(--shadow-gold);
+}
+
+.stage-info h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.stage-company {
+    font-size: var(--font-size-md);
+    color: var(--text-secondary);
+}
+
+.stage-date {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.25rem 1rem;
+    background: rgba(212, 175, 55, 0.15);
+    color: var(--color-secondary);
+    border-radius: 20px;
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Missions */
+.stage-missions h4 {
+    font-size: var(--font-size-md);
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-md);
+}
+
+.missions-grid {
+    display: grid;
+    gap: var(--spacing-md);
+}
+
+.mission-item {
+    display: flex;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: rgba(212, 197, 185, 0.03);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--border-radius-sm);
+    transition: all var(--transition-base);
+}
+
+.mission-item:hover {
+    border-color: var(--border-color);
+    background: rgba(212, 197, 185, 0.06);
+    transform: translateX(4px);
+}
+
+.mission-icon {
+    font-size: 1.5rem;
+    flex-shrink: 0;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-item h5 {
+    font-size: var(--font-size-base);
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.mission-item p {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Discovery Grid */
+.experience-discovery {
+    margin-top: var(--spacing-xl);
+}
+
+.discovery-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.discovery-card {
+    padding: var(--spacing-lg);
+    text-align: center;
+    transition: all var(--transition-base);
+}
+
+.discovery-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-gold-hover);
+}
+
+.discovery-icon {
+    font-size: 2rem;
+    margin-bottom: var(--spacing-md);
+    display: block;
+}
+
+.discovery-card h4 {
+    font-size: var(--font-size-md);
+    color: var(--color-secondary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.discovery-card p {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Self Discovery */
+.self-discovery {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-xl);
+}
+
+.self-discovery-header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.self-icon {
+    font-size: 2rem;
+}
+
+.self-discovery-header h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+}
+
+.self-discovery-content blockquote {
+    border-left: 3px solid var(--color-secondary);
+    padding-left: var(--spacing-lg);
+    margin: 0;
+}
+
+.self-discovery-content blockquote p {
+    font-size: var(--font-size-md);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--spacing-md);
+    font-style: italic;
+}
+
+.self-discovery-content blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 968px) {
+    .discovery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .stage-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .mission-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .self-discovery-content blockquote {
+        padding-left: var(--spacing-md);
+    }
+}

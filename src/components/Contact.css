@@ -210,3 +210,45 @@
         justify-content: center;
     }
 }
+
+/* CV Download */
+.cv-download {
+    margin-top: var(--spacing-lg);
+}
+
+.cv-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+/* Contact Social */
+.contact-social {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-md);
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--border-radius-sm);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: var(--font-size-sm);
+    transition: all var(--transition-base);
+    flex: 1;
+    justify-content: center;
+}
+
+.social-link:hover {
+    border-color: var(--color-secondary);
+    color: var(--color-secondary);
+    background: rgba(212, 175, 55, 0.05);
+}

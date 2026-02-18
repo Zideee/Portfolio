@@ -1,0 +1,150 @@
+.bilan-sae {
+    background: var(--bg-primary);
+}
+
+.semester-block {
+    margin-bottom: var(--spacing-xxl);
+}
+
+.semester-label {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.semester-label span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1.5rem;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    color: var(--color-primary);
+    font-size: var(--font-size-lg);
+    font-weight: var(--font-weight-bold);
+    border-radius: 30px;
+    box-shadow: var(--shadow-gold);
+}
+
+.semester-label::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(90deg, var(--color-secondary), transparent);
+}
+
+/* Timeline */
+.sae-timeline {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.sae-card {
+    padding: var(--spacing-xl);
+    border-left: 3px solid var(--color-secondary);
+    transition: all var(--transition-base);
+}
+
+.sae-card:hover {
+    transform: translateX(4px);
+    box-shadow: var(--shadow-gold-hover);
+}
+
+.sae-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.sae-card-header h3 {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+}
+
+.sae-duration {
+    font-size: var(--font-size-sm);
+    color: var(--color-secondary);
+    background: rgba(212, 175, 55, 0.1);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    white-space: nowrap;
+    flex-shrink: 0;
+}
+
+.sae-description {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+    margin-bottom: var(--spacing-md);
+}
+
+/* Difficulty */
+.sae-difficulty {
+    padding: var(--spacing-md);
+    background: rgba(212, 175, 55, 0.05);
+    border-radius: var(--border-radius-sm);
+    margin-bottom: var(--spacing-md);
+}
+
+.sae-difficulty h4 {
+    font-size: var(--font-size-sm);
+    color: var(--color-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.sae-difficulty p {
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    line-height: var(--line-height-relaxed);
+}
+
+/* Footer tags */
+.sae-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+}
+
+.sae-skills,
+.sae-competences {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.sae-skill-tag {
+    padding: 0.25rem 0.75rem;
+    background: rgba(212, 197, 185, 0.08);
+    color: var(--text-secondary);
+    border-radius: 20px;
+    font-size: var(--font-size-xs);
+    border: 1px solid var(--border-color-light);
+}
+
+.sae-comp-tag {
+    padding: 0.25rem 0.75rem;
+    background: rgba(212, 175, 55, 0.15);
+    color: var(--color-secondary);
+    border-radius: 20px;
+    font-size: var(--font-size-xs);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sae-card {
+        padding: var(--spacing-md);
+    }
+
+    .sae-card-header {
+        flex-direction: column;
+    }
+
+    .sae-footer {
+        flex-direction: column;
+    }
+}

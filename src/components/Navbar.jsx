@@ -43,6 +43,8 @@ const Navbar = () => {
                     <li><a onClick={() => scrollToSection('about')}>À propos</a></li>
                     <li><a onClick={() => scrollToSection('skills')}>Compétences</a></li>
                     <li><a onClick={() => scrollToSection('projects')}>Projets</a></li>
+                    <li><a onClick={() => scrollToSection('experience')}>Parcours</a></li>
+                    <li><a onClick={() => scrollToSection('objectifs')}>Objectifs</a></li>
                     <li><a onClick={() => scrollToSection('contact')} className="btn btn-outline">Contact</a></li>
                 </ul>
             </div>
