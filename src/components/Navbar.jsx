@@ -41,8 +41,10 @@ const Navbar = () => {
 
                 <ul className={`nav-links ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
                     <li><a onClick={() => scrollToSection('about')}>À propos</a></li>
+                    <li><a onClick={() => scrollToSection('experience')}>Expérience</a></li>
                     <li><a onClick={() => scrollToSection('skills')}>Compétences</a></li>
                     <li><a onClick={() => scrollToSection('projects')}>Projets</a></li>
+                    <li><a onClick={() => scrollToSection('journey')}>Parcours</a></li>
                     <li><a onClick={() => scrollToSection('contact')} className="btn btn-outline">Contact</a></li>
                 </ul>
             </div>

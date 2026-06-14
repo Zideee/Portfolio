@@ -1,0 +1,156 @@
+.experience {
+    background: var(--bg-primary);
+}
+
+/* Main experience card */
+.experience-card {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.experience-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
+    padding-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-color-light);
+}
+
+.experience-title {
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin-bottom: 0.25rem;
+}
+
+.experience-company {
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-semibold);
+    color: var(--color-secondary);
+}
+
+.experience-meta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+    align-items: flex-end;
+}
+
+.experience-badge {
+    display: inline-block;
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    background: var(--bg-card);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--border-radius-sm);
+    padding: 0.35rem 0.75rem;
+    white-space: nowrap;
+}
+
+.experience-badge-current {
+    color: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    border-color: transparent;
+    font-weight: var(--font-weight-semibold);
+}
+
+.experience-block + .experience-block {
+    margin-top: var(--spacing-lg);
+}
+
+.experience-block-title {
+    font-size: var(--font-size-md);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.experience-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.experience-list li {
+    position: relative;
+    padding-left: 1.75rem;
+    color: var(--text-secondary);
+    line-height: var(--line-height-normal);
+}
+
+.experience-list li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.55em;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    box-shadow: var(--shadow-gold);
+}
+
+/* Discoveries */
+.discoveries {
+    margin-top: var(--spacing-xxl);
+}
+
+.discoveries-title {
+    text-align: center;
+    font-size: var(--font-size-lg);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-xl);
+}
+
+.discoveries-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-lg);
+}
+
+.discovery-card {
+    text-align: center;
+}
+
+.discovery-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    font-size: 1.75rem;
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-accent));
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-gold);
+    margin-bottom: var(--spacing-md);
+}
+
+.discovery-name {
+    font-size: var(--font-size-md);
+    color: var(--text-primary);
+    margin-bottom: var(--spacing-sm);
+}
+
+.discovery-text {
+    font-size: var(--font-size-base);
+    color: var(--text-muted);
+    line-height: var(--line-height-normal);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .experience-head {
+        flex-direction: column;
+    }
+
+    .experience-meta {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .discoveries-grid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -69,6 +69,16 @@ const Projects = () => {
             githubLink: '',
             liveLink: 'https://www.youtube.com/watch?v=niab2iCJxEk',
         },
+        {
+            id: 8,
+            title: 'Court-métrage Indépendance',
+            description: 'Un court-métrage que j\'ai réalisé sur le thème de l\'indépendance. De l\'écriture au montage, ce projet vidéo prolonge ma passion pour la réalisation et la narration visuelle.',
+            image: 'https://img.youtube.com/vi/W1Ru0sVWyZY/hqdefault.jpg',
+            tags: ['Vidéo', 'Réalisation', 'Court-métrage'],
+            category: 'video',
+            githubLink: '',
+            liveLink: 'https://youtu.be/W1Ru0sVWyZY',
+        },
     ]
 
     const filteredProjects = filter === 'all'
