@@ -22,18 +22,13 @@ const Objectifs = () => {
                         <p>
                             Côté projet, ma plus grande fierté est sans hésiter OtakuGo, réalisé avec mes camarades.
                             C'est un thème qui me tient à cœur, dans lequel nous avons investi beaucoup de temps,
-                            et voir le résultat tourner sur son téléphone procure une vraie forme d'accomplissement —
+                            et voir le résultat tourner sur son téléphone procure une vraie forme d'accomplissement. Et c'est
                             un projet concret que je peux montrer à mon entourage, le fruit de nos efforts.
                         </p>
                         <p>
                             Côté expérience, je suis fier d'avoir trouvé dans le domaine de la banque ce qui me plaît vraiment.
                             Je voulais me spécialiser dans ce secteur pour l'avenir, et faire mes preuves au sein de BDF Gestion
                             confirme que je suis sur la bonne voie.
-                        </p>
-                        <p>
-                            Au-delà du technique, c'est la confiance qu'on m'accorde qui me rend fier.
-                            Prouver qu'un étudiant peut livrer un travail de qualité professionnelle,
-                            c'est la meilleure validation de mon parcours en BUT Informatique.
                         </p>
                     </div>
                 </div>
@@ -44,10 +39,10 @@ const Objectifs = () => {
                         <div className="studies-icon">🎓</div>
                         <h3>Poursuite d'études</h3>
                         <p>
-                            Après l'obtention de mon BUT Informatique, j'ai été admis à <strong>aivancity</strong>,
+                            Après l'obtention de mon BUT Informatique, j'ai été admis à <strong>Aivancity</strong>,
                             école classée 1ʳᵉ en intelligence artificielle, en <strong>M1 MSc Data Engineering &amp; Cloud Computing</strong>
-                            en alternance. J'y développerai des compétences en ingénierie de la donnée, cloud computing,
-                            big data et déploiement de pipelines de machine learning à l'échelle — tout en combinant
+                             en alternance. J'y développerai des compétences en ingénierie de la donnée, cloud computing,
+                            big data et déploiement de pipelines de machine learning à l'échelle, tout en combinant
                             approfondissement théorique et expérience professionnelle concrète.
                         </p>
                     </div>
@@ -65,7 +60,7 @@ const Objectifs = () => {
                             <h4>Valider mon BUT Informatique</h4>
                             <p>
                                 Obtenir mon diplôme et réussir ma soutenance de stage pour valider mon année.
-                                Continuer à développer mes projets personnels (OtakuGo, SimulatorNotes)
+                                Continuer à développer mes projets personnels
                                 pour gagner encore plus d'expérience.
                             </p>
                         </div>
@@ -80,7 +75,7 @@ const Objectifs = () => {
                             <span className="goal-timeframe">Moyen terme — 2026-2028</span>
                             <h4>M1 Data Engineering &amp; Cloud à aivancity</h4>
                             <p>
-                                Intégrer aivancity (1ʳᵉ école d'IA) en M1 MSc Data Engineering &amp; Cloud Computing
+                                Intégrer Aivancity (1ʳᵉ école d'IA) en M1 MSc Data Engineering &amp; Cloud Computing
                                 en alternance, pour approfondir l'ingénierie de la donnée, le cloud, le big data
                                 et le déploiement de pipelines de machine learning. Gagner en expérience et en autonomie.
                             </p>

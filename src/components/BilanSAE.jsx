@@ -7,14 +7,6 @@ const BilanSAE = () => {
             semestre: 'S5',
             items: [
                 {
-                    title: 'Outil de Pilotage',
-                    duration: '4 mois — Équipe de 5',
-                    description: 'Gestion de projet IT complète : analyse des besoins utilisateurs, modélisation UML, programmation en PHP, tests fonctionnels et intégration. Maîtrise des bases de données.',
-                    difficulties: 'La coordination en équipe de 5 était un vrai défi. Il a fallu mettre en place une organisation rigoureuse (répartition des tâches, Git, réunions hebdomadaires) pour avancer efficacement.',
-                    skills: ['PHP', 'UML', 'Gestion de projet', 'Tests', 'SQL'],
-                    competences: ['Réaliser', 'Conduire', 'Collaborer'],
-                },
-                {
                     title: 'OtakuGo — Application Mobile',
                     duration: '4 mois — Équipe de 5',
                     description: 'Développement d\'une application mobile Flutter en mode "offline-first" avec un moteur de recommandation adaptatif pour les animes. Système de swipe, tier list, mode tournoi et dashboard statistiques.',
@@ -34,22 +26,6 @@ const BilanSAE = () => {
                     difficulties: 'Intégrer un mini-jeu Breakout dans le flux narratif a demandé une architecture flexible. Gérer les multiples embranchements scénaristiques était aussi un défi de conception.',
                     skills: ['Python', 'Game Design', 'Scénarisation', 'UI/UX'],
                     competences: ['Réaliser', 'Conduire'],
-                },
-                {
-                    title: 'SAS Perform Vision — Extranet',
-                    duration: 'Projet en équipe',
-                    description: 'Extranet d\'entreprise sécurisé facilitant la collaboration interne, la gestion de fichiers et la diffusion d\'actualités. Authentification, gestion des rôles et interface d\'administration.',
-                    difficulties: 'La sécurisation de l\'extranet (authentification, permissions par rôle) et la gestion de fichiers volumineux ont été les principaux challenges techniques.',
-                    skills: ['PHP', 'Web', 'Sécurité', 'SQL', 'Extranet'],
-                    competences: ['Réaliser', 'Administrer', 'Collaborer'],
-                },
-                {
-                    title: 'App Web HKMT',
-                    duration: 'Projet en équipe',
-                    description: 'Application web d\'administration et de gestion professionnelle développée avec une architecture PHP robuste. Interface d\'administration complète avec tableaux de bord.',
-                    difficulties: 'La complexité des règles métier et la gestion des droits d\'accès multi-niveaux ont nécessité une modélisation approfondie avant le développement.',
-                    skills: ['PHP', 'JavaScript', 'Architecture', 'SQL'],
-                    competences: ['Réaliser', 'Gérer', 'Conduire'],
                 },
                 {
                     title: 'Diagramme de Voronoï — avec & sans IA',

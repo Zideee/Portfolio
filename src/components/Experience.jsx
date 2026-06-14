@@ -146,8 +146,8 @@ const Experience = () => {
                             </p>
                             <p>
                                 Enfin, j'ai confirmé ma ténacité : face à un problème, je veux le résoudre le plus vite
-                                possible et je reste dessus jusqu'à ce qu'il soit complètement réglé — comme sur un terrain
-                                de basket, je ne lâche jamais.
+                                possible et je reste dessus jusqu'à ce qu'il soit complètement réglé. Et c'est comme sur un terrain
+                                de basket, je ne lâche jamais rien.
                             </p>
                         </blockquote>
                     </div>

@@ -137,7 +137,6 @@ a:hover {
 	border-radius: var(--border-radius-md);
 	padding: var(--spacing-lg);
 	transition: all var(--transition-base);
-	backdrop-filter: blur(10px);
 }
 
 .card:hover {
