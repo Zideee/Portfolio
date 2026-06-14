@@ -18,18 +18,18 @@ const PasseportCulturel = () => {
                         <div className="passeport-card-icon">🔍</div>
                         <h3>Veille technologique</h3>
                         <p>
-                            Je maintiens une veille active sur les technologies qui m'intéressent.
-                            Je suis régulièrement l'évolution de Flutter/Dart, les nouvelles pratiques
-                            DevOps et les tendances du développement mobile.
+                            Je maintiens une veille active sur les nouvelles sorties technologiques
+                            et la progression des différents modèles d'IA. C'est un domaine qui évolue
+                            très vite et que je suis de près, en lien avec mon orientation vers la data et l'IA.
                         </p>
                         <div className="veille-sources">
                             <h4>Sources principales</h4>
                             <ul>
+                                <li>YouTube (Melvynx) — actualité IA, modèles et nouveaux outils</li>
                                 <li>GitHub Trending — découverte de projets open source</li>
                                 <li>Dev.to & Medium — articles techniques et retours d'expérience</li>
-                                <li>YouTube (fireship, Traversy Media) — tutoriels et veille</li>
-                                <li>Reddit (r/FlutterDev, r/webdev) — communautés de développeurs</li>
-                                <li>Documentation officielle — Flutter, React, PHP</li>
+                                <li>Reddit (r/MachineLearning, r/webdev) — communautés de développeurs</li>
+                                <li>Documentation officielle — Flutter, React, Python</li>
                             </ul>
                         </div>
                     </div>

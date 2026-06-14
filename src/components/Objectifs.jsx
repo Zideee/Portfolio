@@ -20,17 +20,18 @@ const Objectifs = () => {
                     </div>
                     <div className="pride-content">
                         <p>
-                            Ce dont je suis le plus fier, c'est d'avoir réussi à mettre en place la billetterie informatisée
-                            pour les Jeux Olympiques 2024 à la Mairie de L'Île-Saint-Denis. En tant que stagiaire,
-                            j'ai eu la responsabilité d'un système utilisé par plus de 100 personnes lors d'un événement mondial.
+                            Côté projet, ma plus grande fierté est sans hésiter OtakuGo, réalisé avec mes camarades.
+                            C'est un thème qui me tient à cœur, dans lequel nous avons investi beaucoup de temps,
+                            et voir le résultat tourner sur son téléphone procure une vraie forme d'accomplissement —
+                            un projet concret que je peux montrer à mon entourage, le fruit de nos efforts.
                         </p>
                         <p>
-                            La pression était immense — aucun droit à l'erreur le jour J. Mais c'est exactement ce type de défi
-                            qui me motive. Voir le système fonctionner parfaitement, les utilisateurs satisfaits,
-                            et savoir que j'ai contribué à un événement historique : c'est une fierté indescriptible.
+                            Côté expérience, je suis fier d'avoir trouvé dans le domaine de la banque ce qui me plaît vraiment.
+                            Je voulais me spécialiser dans ce secteur pour l'avenir, et faire mes preuves au sein de BDF Gestion
+                            confirme que je suis sur la bonne voie.
                         </p>
                         <p>
-                            Au-delà du technique, c'est la confiance qu'on m'a accordée qui me rend fier.
+                            Au-delà du technique, c'est la confiance qu'on m'accorde qui me rend fier.
                             Prouver qu'un étudiant peut livrer un travail de qualité professionnelle,
                             c'est la meilleure validation de mon parcours en BUT Informatique.
                         </p>
@@ -43,12 +44,12 @@ const Objectifs = () => {
                         <div className="studies-icon">🎓</div>
                         <h3>Poursuite d'études</h3>
                         <p>
-                            Après l'obtention de mon BUT Informatique, je souhaite poursuivre en alternance
-                            dans un Master ou une école d'ingénieur spécialisée en développement logiciel
-                            ou en ingénierie informatique. L'alternance me permettra de combiner
+                            Après l'obtention de mon BUT Informatique, j'ai été admis à <strong>aivancity</strong>,
+                            école classée 1ʳᵉ en intelligence artificielle, en <strong>M1 MSc Data Engineering &amp; Cloud Computing</strong>
+                            en alternance. J'y développerai des compétences en ingénierie de la donnée, cloud computing,
+                            big data et déploiement de pipelines de machine learning à l'échelle — tout en combinant
                             approfondissement théorique et expérience professionnelle concrète.
                         </p>
-                        {/* PLACEHOLDER : Johann, personnalise cette section avec tes vrais choix d'études */}
                     </div>
                 </div>
 
@@ -61,11 +62,11 @@ const Objectifs = () => {
                         </div>
                         <div className="goal-content card">
                             <span className="goal-timeframe">Court terme — 2026</span>
-                            <h4>Obtenir mon BUT Informatique</h4>
+                            <h4>Valider mon BUT Informatique</h4>
                             <p>
-                                Valider mon diplôme avec mention et décrocher un stage/alternance
-                                pour le Master. Continuer à développer mes projets personnels
-                                (OtakuGo, SimulatorNotes) pour enrichir mon portfolio.
+                                Obtenir mon diplôme et réussir ma soutenance de stage pour valider mon année.
+                                Continuer à développer mes projets personnels (OtakuGo, SimulatorNotes)
+                                pour gagner encore plus d'expérience.
                             </p>
                         </div>
                     </div>
@@ -76,12 +77,12 @@ const Objectifs = () => {
                             <span className="goal-line"></span>
                         </div>
                         <div className="goal-content card">
-                            <span className="goal-timeframe">Moyen terme — 2027-2028</span>
-                            <h4>Master en alternance</h4>
+                            <span className="goal-timeframe">Moyen terme — 2026-2028</span>
+                            <h4>M1 Data Engineering &amp; Cloud à aivancity</h4>
                             <p>
-                                Intégrer un Master en informatique en alternance pour approfondir
-                                mes compétences en architecture logicielle, DevOps et gestion d'équipes techniques.
-                                Gagner en expérience professionnelle et en autonomie.
+                                Intégrer aivancity (1ʳᵉ école d'IA) en M1 MSc Data Engineering &amp; Cloud Computing
+                                en alternance, pour approfondir l'ingénierie de la donnée, le cloud, le big data
+                                et le déploiement de pipelines de machine learning. Gagner en expérience et en autonomie.
                             </p>
                         </div>
                     </div>
@@ -92,13 +93,11 @@ const Objectifs = () => {
                         </div>
                         <div className="goal-content card">
                             <span className="goal-timeframe">Long terme — 2029+</span>
-                            <h4>Développeur senior / Lead technique</h4>
+                            <h4>Développeur Data &amp; IA ou DevOps en banque</h4>
                             <p>
-                                Évoluer vers un rôle de lead technique ou de développeur senior,
-                                en combinant expertise technique et management d'équipe.
-                                Contribuer à des projets à impact, potentiellement dans le domaine
-                                du sport ou du divertissement — deux passions que j'aimerais retrouver
-                                dans ma carrière.
+                                Devenir développeur Data &amp; IA ou DevOps — un métier lié à l'informatique
+                                dans le domaine de la banque, le secteur dans lequel je souhaite me spécialiser
+                                et conjuguer expertise technique et impact concret.
                             </p>
                         </div>
                     </div>

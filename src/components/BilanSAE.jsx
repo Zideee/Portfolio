@@ -51,6 +51,14 @@ const BilanSAE = () => {
                     skills: ['PHP', 'JavaScript', 'Architecture', 'SQL'],
                     competences: ['Réaliser', 'Gérer', 'Conduire'],
                 },
+                {
+                    title: 'Diagramme de Voronoï — avec & sans IA',
+                    duration: 'Projet individuel',
+                    description: 'Application web (HTML/CSS/JS) générant un diagramme de Voronoï à partir d\'un fichier de coordonnées, d\'abord sans IA puis avec plusieurs IA (Gemini). Import de fichiers, export SVG/PNG HD et suite de tests unitaires (Vitest) et de bout en bout (Playwright).',
+                    difficulties: 'Le vrai enseignement a été le prompting : il faut formuler des demandes précises à l\'IA pour qu\'elle reste sur les rails, sinon elle se perd. Bien la guider a fait toute la différence sur la qualité du résultat.',
+                    skills: ['JavaScript', 'IA / Gemini', 'D3.js', 'Vitest', 'Playwright'],
+                    competences: ['Réaliser', 'Optimiser'],
+                },
             ]
         },
     ]

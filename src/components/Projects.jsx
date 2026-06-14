@@ -7,7 +7,7 @@ const Projects = () => {
     const projects = [
         {
             id: 1,
-            title: 'OtakuGoooo',
+            title: 'OtakuGo',
             description: 'Application mobile de recommandation d\'animes avec système de swipe, algorithme évolutif, tier list, mode tournoi et dashboard statistiques.',
             image: 'projects/otakugo.png',
             tags: ['Flutter', 'Dart', 'Mobile'],
@@ -25,7 +25,7 @@ const Projects = () => {
         },
         {
             id: 3,
-            title: 'Doctor Who Games dfzva',
+            title: 'Doctor Who Games',
             description: 'Jeu mobile interactif basé sur l\'univers Doctor Who avec choix narratifs, voyages temporels et mini-jeu Breakout.',
             image: 'projects/doctorwho.png',
             tags: ['Python', 'Mobile', 'Game'],
@@ -43,7 +43,7 @@ const Projects = () => {
         },
         {
             id: 5,
-            title: 'SAS Perform Vision dvsdvav',
+            title: 'SAS Perform Vision',
             description: 'Extranet d\'entreprise sécurisé facilitant la collaboration, la gestion de fichiers et la diffusion d\'actualités internes.',
             image: 'projects/sas-perform-vision.png',
             tags: ['Web', 'Extranet', 'PHP'],
@@ -68,6 +68,16 @@ const Projects = () => {
             category: 'video',
             githubLink: '',
             liveLink: 'https://www.youtube.com/watch?v=niab2iCJxEk',
+        },
+        {
+            id: 8,
+            title: 'Court-métrage Indépendance',
+            description: 'Un court-métrage que j\'ai réalisé sur le thème de l\'indépendance. De l\'écriture au montage, ce projet vidéo prolonge ma passion pour la réalisation et la narration visuelle.',
+            image: 'https://img.youtube.com/vi/W1Ru0sVWyZY/hqdefault.jpg',
+            tags: ['Vidéo', 'Réalisation', 'Court-métrage'],
+            category: 'video',
+            githubLink: '',
+            liveLink: 'https://youtu.be/W1Ru0sVWyZY',
         },
     ]
 

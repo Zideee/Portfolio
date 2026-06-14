@@ -12,8 +12,47 @@ const Experience = () => {
                     <p className="section-subtitle">Mon expérience en entreprise et ce que j'en ai appris</p>
                 </div>
 
-                {/* Stage */}
+                {/* Stage BDF Gestion */}
                 <div className="experience-stage card animate-fade-in-up">
+                    <div className="stage-header">
+                        <div className="stage-icon">🏦</div>
+                        <div className="stage-info">
+                            <h3>Stage — Développeur</h3>
+                            <p className="stage-company">BDF Gestion — Paris</p>
+                            <span className="stage-date">2026 — En cours</span>
+                        </div>
+                    </div>
+
+                    <div className="stage-missions">
+                        <h4>Missions réalisées</h4>
+                        <div className="missions-grid">
+                            <div className="mission-item">
+                                <span className="mission-icon">🔧</span>
+                                <div>
+                                    <h5>Maintenance applicative</h5>
+                                    <p>Me mettre à niveau sur les développements existants (Python, C#, Nuxt) afin de pouvoir intervenir sur n'importe quel programme en cas de modification.</p>
+                                </div>
+                            </div>
+                            <div className="mission-item">
+                                <span className="mission-icon">🐍</span>
+                                <div>
+                                    <h5>Développements Python</h5>
+                                    <p>Réaliser de nouveaux développements en Python pour les collaborateurs de BDF Gestion, en réponse à leurs besoins métier.</p>
+                                </div>
+                            </div>
+                            <div className="mission-item">
+                                <span className="mission-icon">📊</span>
+                                <div>
+                                    <h5>Pôle infogérance</h5>
+                                    <p>Gestion du parc de progiciels marchés (Bloomberg, Reuters, Factset, Barra, Bondvision, Tradeweb, ITG), de l'infrastructure virtualisée et du parc utilisateurs, du réseau, développement d'outils d'aide à la décision (VBA, Python) pour le front et le middle office, et support technique à tous les collaborateurs.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Stage Mairie */}
+                <div className="experience-stage card animate-fade-in-up" style={{ animationDelay: '0.15s' }}>
                     <div className="stage-header">
                         <div className="stage-icon">🏢</div>
                         <div className="stage-info">
@@ -95,19 +134,20 @@ const Experience = () => {
                     <div className="self-discovery-content">
                         <blockquote>
                             <p>
-                                Mon stage m'a révélé que ma force réside dans ma capacité à fédérer.
-                                Quand la pression montait pour la billetterie des JO, c'est en gardant mon calme
-                                et en coordonnant les efforts de chacun que j'ai pu mener le projet à bien.
+                                Mon stage chez BDF Gestion m'a révélé à quel point j'aime aider les autres.
+                                Je n'hésite jamais à aller vers mes collègues pour récupérer les informations
+                                dont j'ai besoin afin de mener une mission à bien ou de corriger un problème :
+                                cet altruisme est devenu un vrai moteur dans mon travail.
                             </p>
                             <p>
-                                J'ai aussi découvert que j'aime être au contact des utilisateurs finaux :
-                                comprendre leurs besoins, adapter les solutions, et voir la satisfaction
-                                quand tout fonctionne. C'est ce qui me pousse à vouloir continuer dans le développement.
+                                J'ai aussi découvert mon sang-froid. Lorsque plusieurs demandes arrivent en même temps,
+                                que les personnes sont pressées et que la pression monte, je sais garder mon calme
+                                pour traiter chaque sujet avec lucidité plutôt que dans la précipitation.
                             </p>
                             <p>
-                                Enfin, j'ai réalisé que la persévérance — une qualité que je cultive sur les terrains de basket —
-                                se transpose parfaitement dans le monde professionnel. Ne jamais abandonner face à un bug,
-                                c'est comme ne jamais lâcher un match.
+                                Enfin, j'ai confirmé ma ténacité : face à un problème, je veux le résoudre le plus vite
+                                possible et je reste dessus jusqu'à ce qu'il soit complètement réglé — comme sur un terrain
+                                de basket, je ne lâche jamais.
                             </p>
                         </blockquote>
                     </div>
